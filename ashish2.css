@@ -2,4 +2,17 @@ body{
     background-image: url("pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg"); 
     background-repeat: no-repeat; 
     background-size: 100%;
+    font-style: oblique;
+    
+    
+}
+table{
+    background-color: rgb(32, 7, 105);
+    border:5px solid black;
+}
+input{
+    background-color: rgb(103, 147, 230);
+}
+button{
+    background-color: rgb(177, 8, 163);
 }
