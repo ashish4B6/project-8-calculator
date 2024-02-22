@@ -12,13 +12,14 @@ function appendNumber(num){
    }
    else{
     secondNumber+=num;
-    document.getElementById("result").value=secondNumber;
+    document.getElementById("result").value=firstNumber+""+operator+""+secondNumber;
    }
    
 
 }
 function setOperator(op){
-    operator=op;    
+    operator=op;  
+    document.getElementById("result").value=firstNumber+""+operator;  
 }
 function calculate(){
     let result;
